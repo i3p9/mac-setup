@@ -1,0 +1,23 @@
+name: ml
+# change it to whatever
+channels:
+- anaconda # default one
+- pytorch # necessary for pytorch and torchvision
+dependencies:
+- python=3.7
+- matplotlib=3.0.1
+- nb_conda
+- sklearn
+- pandas
+- tqdm
+- seaborn
+- numpy=1.15.2
+- pip
+- pytorch
+- torchvision
+- scipy=1.1.0
+- tensorboard
+- pip:
+  - scikit-learn==0.20.0
+  - opencv-contrib-python==4.0.0.21
+
