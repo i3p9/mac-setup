@@ -47,7 +47,7 @@
 
 # Brew Cask Apps
 
-- `brew cask install adoptopenjdk8 appcleaner authy discord google-chrome handbreak iina iterm2 jdownloader notion slack spotify transmission visual-studio-code xampp`
+- `brew cask install adoptopenjdk14 imageoptim maccy adoptopenjdk8 iterm2 notion appcleaner jdownloader slack discord kap transmission eclipse-java keka transmission-remote-gui handbrake lyricsx visual-studio-code iina mac2imgur xampp`
 
 # Outside brew Apps
 
