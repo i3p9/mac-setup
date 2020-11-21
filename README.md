@@ -1,4 +1,4 @@
-# MacOS Setup Guide (Totally personal, still being worked on)
+# MacOS Setup Guide (Totally personal, still being worked on...)
 
 # System Preferences
 
