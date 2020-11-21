@@ -86,13 +86,14 @@ Host *
 - Download theme `wget https://raw.githubusercontent.com/i3p9/mac-setup/main/iterm2/Clovis-iTerm2-Color-Scheme.itermcolors` and set it as default
 - Use font Menlo, size 15 (for now)
 - Prefs: Appearance>Tab>Select *Always show tab bar*
-- Download and configure powerlevel10k `git clone --depth=1 [https://github.com/romkatv/powerlevel10k.git](https://github.com/romkatv/powerlevel10k.git) ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
+- Download and configure powerlevel10k `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
+- Open `.zshrc` by `nano ~/.zshrc` and edit the theme line to `ZSH_THEME="powerlevel10k/powerlevel10k"` then run `p10k configure` to config
 - If the command doesn't work get it from [p10k](https://github.com/romkatv/powerlevel10k), then run `p10k configure` to config
 - Open `.zshrc` by `nano ~/.zshrc` and add the line below to the file and save:
 - `plugins=(git colored-man-pages colorize pip python brew osx zsh-syntax-highlighting zsh-autosuggestions)`
 - Note: zsh-syntax-highlighting and zsh-autosuggestions would have been already installed but not seen by oh-my-zsh so it will throw erros, to fix the erros, do following:
-- `git clone [https://github.com/zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions`
-- `git clone [https://github.com/zsh-users/zsh-syntax-highlighting.git](https://github.com/zsh-users/zsh-syntax-highlighting.git) ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting`
+- `git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions`
+- `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting`
 
 # Git Specific Stuff
 
