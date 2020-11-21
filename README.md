@@ -82,8 +82,8 @@ Host *
 # iTerm Setup
 
 - Install `brew install zsh zsh-completions` for latest zsh
-- Install oh-my-zsh `sh -c "$(curl -fsSL [https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh](https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh))"`
-- Download theme `wget [https://raw.githubusercontent.com/i3p9/mac-setup/main/iterm2/Clovis-iTerm2-Color-Scheme.itermcolors](https://raw.githubusercontent.com/i3p9/mac-setup/main/iterm2/Clovis-iTerm2-Color-Scheme.itermcolors)` and set it as default
+- Install oh-my-zsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+- Download theme `wget https://raw.githubusercontent.com/i3p9/mac-setup/main/iterm2/Clovis-iTerm2-Color-Scheme.itermcolors` and set it as default
 - Use font Menlo, size 15 (for now)
 - Prefs: Appearance>Tab>Select *Always show tab bar*
 - Download and configure powerlevel10k `git clone --depth=1 [https://github.com/romkatv/powerlevel10k.git](https://github.com/romkatv/powerlevel10k.git) ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
