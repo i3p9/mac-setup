@@ -1,4 +1,4 @@
-# MacOS Setup Guide (Totally personal, still being worked on...)
+# MacOS Setup Guide (Totally personal, still being worked on)
 
 # System Preferences
 
@@ -40,6 +40,27 @@
 - Install python3 from `brew install python3` and change alias for python and pip
 - `echo "alias python=/usr/local/bin/python3" >> ~/.zshrc`
 - `echo "alias pip=/usr/local/bin/pip3" >> ~/.zshrc`
+
+
+# Git Setup
+
+- Generate ssh-key if on a new install `ssh-keygen -t ed25519 -C "your_email@example.com"` (Save in the default location specified)
+- Start ssh-agent `eval "$(ssh-agent -s)"`
+- Open the ssh config `open ~/.ssh/config`, if it doesn't exist, create one by `touch ~/.ssh/config` and then open `nano ~/.ssh/config` to edit
+- Add the following lines and then save ([link](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) incase there's formatting error):
+```
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+```
+- Then add the ssh-key to the agent `ssh-add -K ~/.ssh/id_ed25519`
+- Copy the pub file to clipboard using `pbcopy < ~/.ssh/id_ed25519.pub` and then paste it in Github Settings -> [SSH/GPG Keys](https://github.com/settings/keys)
+- Test SSH connection `ssh -T git@github.com`
+- If okay, then add username and email globally by using: 
+- `git config --global user.name "i3p9"`
+- `git config --global user.email your_email@example.com`
+- Done!
 
 # Brew Apps
 
