@@ -91,19 +91,19 @@ Host *
 - Open `.zshrc` by `nano ~/.zshrc` and add the line below to the file and save:
 - `plugins=(git colored-man-pages colorize pip python brew osx zsh-syntax-highlighting zsh-autosuggestions)`
 - Note: zsh-syntax-highlighting and zsh-autosuggestions would have been already installed but not seen by oh-my-zsh so it will throw erros, to fix the erros, do following:
-- `git clone [https://github.com/zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions`
-- `git clone [https://github.com/zsh-users/zsh-syntax-highlighting.git](https://github.com/zsh-users/zsh-syntax-highlighting.git) ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting`
+- `git clone https://github.com/zsh-users/zsh-autosuggestions
+- `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting`
 
 # Git Specific Stuff
 
-- `curl [https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gitignore](https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gitignore) -o ~/.gitignore`
+- `curl https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gitignore -o ~/.gitignore`
 - `git config --global core.excludesfile ~/.gitignore` to add macOS specific gitignore globally
 
 # Anaconda Setup for Machine learning
 
 - `brew cask install anaconda`
 - Make a new folder in project called `ml` and cd into it
-- get the requirements from `wget[https://raw.githubusercontent.com/i3p9/mac-setup/main/conda/requirements.yml](https://raw.githubusercontent.com/i3p9/mac-setup/main/conda/requirements.yml)`
+- get the requirements from `wget https://raw.githubusercontent.com/i3p9/mac-setup/main/conda/requirements.yml`
 - Then create the environment `conda env create -f requirements.yml`
 - Make sure it's installed by `conda env list`
 - Activate it by `conda activate ml`
@@ -113,3 +113,13 @@ Host *
 - For 3840x2160: `1920x1080`
 - For 1920x1080: `1536x864 1440x810 1408x792 1366x768 1280x720`
 - For 1600x900: `1408x792 1360x765 1280x720` 
+
+# Finder Services
+
+Service: Upload to Imgur
+- Grab Imgur.sh from https://github.com/tremby/imgur.sh or use the command below
+- `wget https://raw.githubusercontent.com/tremby/imgur.sh/main/imgur.sh`
+- Change the API Key if necessary
+- Copy and rename `imgur.sh` to bin folder. `cp imgur.sh /usr/local/bin/imgur`
+- Make it executable. `chmod +x /usr/local/bin/imgur`
+- Grab the `Imgur Uploader.workflow` file from Services folder and install it
