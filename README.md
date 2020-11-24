@@ -68,7 +68,7 @@ Host *
 
 # Brew Cask Apps
 
-- `brew cask install adoptopenjdk14 imageoptim maccy adoptopenjdk8 iterm2 notion appcleaner jdownloader slack discord kap transmission eclipse-java keka transmission-remote-gui handbrake lyricsx visual-studio-code iina mac2imgur xampp avibrazil-rdm authy cloudflare-warp`
+- `brew cask install adoptopenjdk14 imageoptim maccy adoptopenjdk8 iterm2 notion appcleaner jdownloader slack discord kap transmission eclipse-java keka transmission-remote-gui handbrake lyricsx visual-studio-code iina mac2imgur xampp avibrazil-rdm authy cloudflare-warp spotify google-chrome altserver`
 
 # Outside brew Apps
 
@@ -82,11 +82,12 @@ Host *
 # iTerm Setup
 
 - Install `brew install zsh zsh-completions` for latest zsh
-- Install oh-my-zsh `sh -c "$(curl -fsSL [https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh](https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh))"`
-- Download theme `wget [https://raw.githubusercontent.com/i3p9/mac-setup/main/iterm2/Clovis-iTerm2-Color-Scheme.itermcolors](https://raw.githubusercontent.com/i3p9/mac-setup/main/iterm2/Clovis-iTerm2-Color-Scheme.itermcolors)` and set it as default
+- Install oh-my-zsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+- Download theme `wget https://raw.githubusercontent.com/i3p9/mac-setup/main/iterm2/Clovis-iTerm2-Color-Scheme.itermcolors` and set it as default
 - Use font Menlo, size 15 (for now)
 - Prefs: Appearance>Tab>Select *Always show tab bar*
-- Download and configure powerlevel10k `git clone --depth=1 [https://github.com/romkatv/powerlevel10k.git](https://github.com/romkatv/powerlevel10k.git) ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
+- Download and configure powerlevel10k `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
+- Open `.zshrc` by `nano ~/.zshrc` and edit the theme line to `ZSH_THEME="powerlevel10k/powerlevel10k"` then run `p10k configure` to config
 - If the command doesn't work get it from [p10k](https://github.com/romkatv/powerlevel10k), then run `p10k configure` to config
 - Open `.zshrc` by `nano ~/.zshrc` and add the line below to the file and save:
 - `plugins=(git colored-man-pages colorize pip python brew osx zsh-syntax-highlighting zsh-autosuggestions)`
