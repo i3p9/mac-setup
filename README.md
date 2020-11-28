@@ -127,5 +127,5 @@ Service: Upload to Imgur
 
 # tvnamer setup
 - tvnamer should already be downloaded via brew
-- `cd ~/.config/`, then `mkdir tvrenamer`, `cd tvrenamer` and then `wget json link`
+- `cd ~/.config/`, then `mkdir tvrenamer`, `cd tvrenamer` and then `wget https://github.com/i3p9/mac-setup/raw/main/tvnamer.json`
 - cool beans
