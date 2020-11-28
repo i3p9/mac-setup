@@ -64,7 +64,7 @@ Host *
 
 # Brew Apps
 
-- Basics: `brew install wget youtube-dl aria2 tree`
+- Basics: `brew install wget youtube-dl aria2 tree tvnamer`
 
 # Brew Cask Apps
 
@@ -124,3 +124,8 @@ Service: Upload to Imgur
 - Copy and rename `imgur.sh` to bin folder. `cp imgur.sh /usr/local/bin/imgur`
 - Make it executable. `chmod +x /usr/local/bin/imgur`
 - Grab the `Imgur Uploader.workflow` file from Services folder and install it
+
+# tvnamer setup
+- tvnamer should already be downloaded via brew
+- `cd ~/.config/`, then `mkdir tvrenamer`, `cd tvrenamer` and then `wget json link`
+- cool beans
