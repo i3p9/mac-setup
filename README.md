@@ -62,6 +62,14 @@ Host *
 - `git config --global user.email your_email@example.com`
 - Done!
 
+# Git GPG Setup
+
+- Install gnupg via `brew install gnupg
+- Check for existing keys `gpg --list-secret-keys --keyid-format LONG`
+- Follow [this](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-gpg-key) to generate a key and then import it to Git
+- After that, tell git to use the keyid by `git config --global user.signingkey KEYIDHERE`
+- Should be good to go. Just use `-S` when commiting to sign it. 
+
 # Brew Apps
 
 - Basics: `brew install wget youtube-dl aria2 tree tvnamer`
