@@ -68,7 +68,20 @@ Host *
 - Check for existing keys `gpg --list-secret-keys --keyid-format LONG`
 - Follow [this](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-gpg-key) to generate a key and then import it to Git
 - After that, tell git to use the keyid by `git config --global user.signingkey KEYIDHERE`
+- Then tell git to always commit signed `git config --global commit.gpgsign true`
 - Should be good to go. Just use `-S` when commiting to sign it. 
+Troubleshooting: If  `git commit -S -m` is thorwing error, do this: 
+- `echo "test" | gpg --clearsign`
+- If error is 
+```
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+test
+gpg: signing failed: Inappropriate ioctl for device
+gpg: [stdin]: clear-sign failed: Inappropriate ioctl for device
+```
+- Then run `export GPG_TTY=$(tty)` and check again. It should work now. 
 
 # Brew Apps
 
