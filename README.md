@@ -85,20 +85,30 @@ gpg: [stdin]: clear-sign failed: Inappropriate ioctl for device
 
 # Brew Apps
 
-- Basics: `brew install wget youtube-dl aria2 tree tvnamer`
+- Basics: `brew install wget youtube-dl aria2 tree tvnamer mas`
 
 # Brew Cask Apps
 
-- `brew cask install adoptopenjdk imageoptim maccy adoptopenjdk8 iterm2 notion appcleaner jdownloader slack discord kap transmission eclipse-java keka transmission-remote-gui handbrake lyricsx visual-studio-code iina mac2imgur xampp avibrazil-rdm authy cloudflare-warp spotify google-chrome altserver`
+- `brew cask install adoptopenjdk handbrake monitorcontrol altserver iina notion appcleaner imageoptim slack authy iterm2 spotify avibrazil-rdm jdownloader transmission cloudflare-warp keka transmission-remote-gui discord lyricsx typora docker mac2imgur visual-studio-code google-chrome maccy xampp`
+
+# mas-cli Apps
+mas-cli is a command line interface for the App Store. Downloads using app id.
+- `mas install 497799835 1480068668 441258766 1116599239 1468073139 1107421413 1518425043 1107421413`
+
+
 
 # Outside brew Apps
 
-- Messenger
-- Magnet
-- PhotoScape X
-- Final Cut Pro
-- NordVPN
-- WPS Office
+- Xcode (497799835)
+- Messenger (1480068668)
+- Magnet (441258766)
+- PhotoScape X (929507092) [not in command]
+- Final Cut Pro (424389933) [not in command]
+- NordVPN (1116599239)
+- WPS Office(1468073139)
+- 1Blocker (1107421413)
+- Limechat (414030210)
+- Boop (1518425043)
 
 # iTerm Setup
 
