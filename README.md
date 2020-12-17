@@ -96,7 +96,6 @@ mas-cli is a command line interface for the App Store. Downloads using app id.
 - `mas install 497799835 1480068668 441258766 1116599239 1468073139 1107421413 1518425043 1107421413`
 
 
-
 # Outside brew Apps
 
 - Xcode (497799835)
@@ -110,12 +109,19 @@ mas-cli is a command line interface for the App Store. Downloads using app id.
 - Limechat (414030210)
 - Boop (1518425043)
 
+# Fonts
+Tap into cask-fonts in brew and install these fonts. More to add later. 
+```
+brew tap homebrew/cask-fonts
+brew cask install font-iosevka
+```
+
 # iTerm Setup
 
 - Install `brew install zsh zsh-completions` for latest zsh
 - Install oh-my-zsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
-- Download theme `wget https://raw.githubusercontent.com/i3p9/mac-setup/main/iterm2/Clovis-iTerm2-Color-Scheme.itermcolors` and set it as default
-- Use font Menlo, size 15 (for now)
+- Download theme `wget https://raw.githubusercontent.com/i3p9/mac-setup/main/iterm2/vscode.itermcolors` (set as default) (More themes are available in the iterm folder)
+- Use font Iosevka Term, size 16 (for now)
 - Prefs: Appearance>Tab>Select *Always show tab bar*
 - Download and configure powerlevel10k `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
 - Open `.zshrc` by `nano ~/.zshrc` and edit the theme line to `ZSH_THEME="powerlevel10k/powerlevel10k"` then run `p10k configure` to config
