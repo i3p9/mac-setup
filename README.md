@@ -64,15 +64,16 @@ Host *
 
 # Git GPG Setup
 
-- Install gnupg via `brew install gnupg
+- Install gnupg via `brew install gnupg`
 - Check for existing keys `gpg --list-secret-keys --keyid-format LONG`
 - Follow [this](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-gpg-key) to generate a key and then import it to Git
 - After that, tell git to use the keyid by `git config --global user.signingkey KEYIDHERE`
 - Then tell git to always commit signed `git config --global commit.gpgsign true`
-- Should be good to go. Just use `-S` when commiting to sign it. 
+- If don't want to global sign commit, just use `-S` when commiting to sign individual commit.
+
 Troubleshooting: If  `git commit -S -m` is thorwing error, do this: 
 - `echo "test" | gpg --clearsign`
-- If error is 
+If the error is 
 ```
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
@@ -81,11 +82,11 @@ test
 gpg: signing failed: Inappropriate ioctl for device
 gpg: [stdin]: clear-sign failed: Inappropriate ioctl for device
 ```
-- Then run `export GPG_TTY=$(tty)` and check again. It should work now. 
+- Then run `echo 'export GPG_TTY=$(tty)' >> ~/.zshrc` and try again!
 
 # Brew Apps
 
-- Basics: `brew install wget youtube-dl aria2 tree tvnamer mas`
+- Basics: `brew install wget youtube-dl aria2 tree tvnamer mas gnupg`
 
 # Brew Cask Apps
 
@@ -141,7 +142,7 @@ brew cask install font-iosevka
 
 - `brew cask install anaconda`
 - Make a new folder in project called `ml` and cd into it
-- get the requirements from `wget https://raw.githubusercontent.com/i3p9/mac-setup/main/conda/requirements.yml`
+- get the requirements from `wget https://raw.githubusercontent.com/i3p9/mac-setup/main/files/conda/requirements.yml`
 - Then create the environment `conda env create -f requirements.yml`
 - Make sure it's installed by `conda env list`
 - Activate it by `conda activate ml`
