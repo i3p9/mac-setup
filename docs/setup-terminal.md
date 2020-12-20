@@ -57,6 +57,9 @@ Open `.zshrc` by `nano ~/.zshrc` and add the line below to the file and save:
 plugins=(git colored-man-pages colorize pip python brew osx zsh-syntax-highlighting zsh-autosuggestions)
 ```
 
+## Backup/Restore Keymaps and Profiles
+There are backups of keymaps and profile in the `files/iterm2/` folder, grab those and import. 
+
 #### Troubleshooting
 
 `zsh-syntax-highlighting` and `zsh-autosuggestions` would have been already installed but not seen by oh-my-zsh so it will throw errors, to fix the errors, do following
