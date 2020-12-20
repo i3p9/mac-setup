@@ -19,10 +19,7 @@ brew install wget youtube-dl aria2 tree tvnamer mas gnupg
 Let's hop on over the GUI apps, using `--cask`
 
 ```text
-brew cask install adoptopenjdk handbrake monitorcontrol altserver iina notion appcleaner imageoptim slack authy iterm2 spotify avibrazil-rdm jdownloader transmission cloudflare-warp keka transmission-remote-gui discord lyricsx typora docker mac2imgur visual-studio-code google-chrome maccy xampp
+brew install adoptopenjdk handbrake monitorcontrol altserver iina notion appcleaner imageoptim slack authy iterm2 spotify avibrazil-rdm jdownloader transmission cloudflare-warp keka transmission-remote-gui discord lyricsx typora docker mac2imgur visual-studio-code google-chrome maccy xampp --cask
 ```
 
 That's gonna take some time. In the meantime you should start setting up Git and integrate it with Github.
-
-
-

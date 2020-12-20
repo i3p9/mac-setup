@@ -49,4 +49,3 @@ cd Pictures
 mkdir Screenshots
 defaults write com.apple.screencapture location /Users/fahim/Pictures/Screenshots
 ```
-

@@ -28,13 +28,13 @@ brew cask install font-iosevka
 
 Let's make iterm2 look pretty first.
 
-* Download the current theme I'm into and set it as default. \(There's other theme in the folder as well\)
+* Download the current theme I'm into and set it as default. (There's other theme in the folder as well)
 
 ```text
 wget https://raw.githubusercontent.com/i3p9/mac-setup/main/files/iterm2/vscode.itermcolors
 ```
 
-* While you're there, change the font to Iosevka Term, size 16. \(Experimenting\)
+* While you're there, change the font to Iosevka Term, size 16. (Experimenting)
 * ...and `Appearance>Tab>Select Always show tab bar`
 
 ## Powerlevel10k
