@@ -2,13 +2,13 @@
 
 - Install gnupg and pinentry
 
-  ```
+  ```bash
   brew install gnupg pinentry-mac
   ```
   
 - Configure pinentry
 
-  ```
+  ```bash
   echo "pinentry-program /usr/local/bin/pinentry-mac" > ~/.gnupg/gpg-agent.conf
   killall gpg-agent
   ```
@@ -17,7 +17,7 @@
 
 - After that, generate a key
 
-  ```
+  ```bash
   gpg --full-generate-key
   ```
 
@@ -30,7 +30,7 @@
 
 - List all gpg keys and select your public one
 
-  ```
+  ```bash
   gpg --list-secret-keys --keyid-format LONG
   
   /Users/hubot/.gnupg/secring.gpg
@@ -44,7 +44,7 @@
 
 - Then run this command substituting your `keyid`, which in this case is `3AA5C34371567BD2`, so we'll do
 
-  ```
+  ```bash
   gpg --armor --export 3AA5C34371567BD2
   ```
 
@@ -52,7 +52,7 @@
 
 - Tell git to use the keyid, and sign every commit by
 
-  ```
+  ```bash
   git config --global user.signingkey KEYIDHERE
   git config --global commit.gpgsign true
   ```
@@ -62,7 +62,7 @@ This should be good to go now. If there's any issues, please refer to the troubl
 ### Troubleshooting
 
 If `git commit` is throwing error like `gpg: signing failed`, then run
-```
+```bash
 echo "test" | gpg --clearsign
 
 -----BEGIN PGP SIGNED MESSAGE-----
@@ -73,7 +73,7 @@ gpg: signing failed: Inappropriate ioctl for device
 gpg: [stdin]: clear-sign failed: Inappropriate ioctl for device
 ```
 If the error is like above, run
-```
+```bash
 echo 'export GPG_TTY=$(tty)' >> ~/.zshrc
 ```
 and try again!

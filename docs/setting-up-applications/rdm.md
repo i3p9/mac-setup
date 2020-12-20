@@ -3,7 +3,7 @@
 Here we're going to configure one-key-hidpi to enable HiDPI and use RDM in conjuction to switch trough various resolutions.
 
 Download and config one-key-hidpi
-```
+```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
 ```
 

@@ -40,11 +40,11 @@
 
 ## Fix Screenshot Path
 
-* Terminal: `defaults write com.apple.screencapture location`  and then drag drop Screenshots folder \(in Pictures\) into it. 
+* Terminal: `defaults write com.apple.screencapture location`  and then drag drop Screenshots folder (in Pictures) into it. 
 
 Or
 
-```text
+```bash
 cd Pictures
 mkdir Screenshots
 defaults write com.apple.screencapture location /Users/fahim/Pictures/Screenshots
