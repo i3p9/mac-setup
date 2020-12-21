@@ -50,5 +50,22 @@ Save it. in the default location specified.
 
   All done!
 
+### Special note regarding making sure that you're using ssh to make changes to your repository
 
+Note that after you've setup SSH, if you clone the project via HTTP, then the changes you make will also be done via HTTP. So to check weather or not you're using HTTPS, do this when you're inside the repository.
+```bash
+git remote
+>origin
 
+git remote get-url origin
+>https://github.com/username/repo
+```
+if the `git remote get-url origin` reports a `https` link, it means you are pushing all the changes via `https`. To change that to `ssh`, just do this
+```bash
+git remote set-url origin git@github.com:username/repo
+```
+If it has worked perfectly, then when running `git remote get-url origin` you'll get this
+```bash
+git remote get-url origin
+>git@github.com:user/repo
+```
