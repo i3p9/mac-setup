@@ -41,6 +41,7 @@ apps=(
   google-chrome
   maccy
   xampp
+  cyberduck
 )
 
 echo "installing binaries..."

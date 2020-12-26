@@ -16,7 +16,7 @@ conda env list
 conda activate ml
 ```
 
-Should be good to go. 
+Should be good to go.
 
 #### Explanation
 
