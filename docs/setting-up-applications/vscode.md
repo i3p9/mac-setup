@@ -4,7 +4,7 @@ VS Code configuration is mostly handled by Settings Sync (id: `shan.code-setting
 
 Click on the cogwheel bottom left, and download settings from Github Gist.
 
-## VSCode Tips
+## vscode Tips
 
 - Disable `Minimap: Render Characters` in the editor if you're using a smaller screen. You can't see the text anyway that's rendering in the minimap and making it render blocks makes it look better and easier to find specifc blocks of code. To do this, in `settings.json`->
 
@@ -46,7 +46,7 @@ Command(⌘) + Shift(⇧) + Arrow Key (Left/Right) → Highlight remaining text
 Command(⌘) + Option(⌥) + Arrow Key (Up/Down) → Add a curson above/below
 ```
 
-## Worst Case Scenario
+## worst case scenario
 
 If the sync fails, here's a general idea of how it's setup.
 

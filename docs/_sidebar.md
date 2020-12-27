@@ -13,3 +13,5 @@
     * [SSH-Setup](/setting-up-git/ssh-setup.md)
     * [GPG-Setup](/setting-up-git/gpg-setup.md)
 * [Finder Services](finder-services.md)
+* [Miscellaneous]()
+    * [headless-jdownloader](/misc/jdownloader2.md)

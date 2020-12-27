@@ -2,19 +2,23 @@
 
 This is gonna take some time. Let's start with the basic brew apps that needs configuration.
 
+## python
+
 ```bash
 brew install python3
 echo "alias python=/usr/local/bin/python3" >> ~/.zshrc
 echo "alias pip=/usr/local/bin/pip3" >> ~/.zshrc
 ```
 
-Python is setup.
+## brew apps
 
-Let's install the rest of the applications. 
+Let's install the rest of the applications.
 
 ```bash
 brew install wget youtube-dl aria2 tree tvnamer mas gnupg thefuck tldr
 ```
+
+## brew cask apps
 
 Let's hop on over the GUI apps, using `--cask`
 
