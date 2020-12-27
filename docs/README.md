@@ -8,6 +8,7 @@ A brief guide to setup everything after a fresh installation of macOS. Note that
   <a data-theme="Light">vue.css</a>
   <a data-theme="Dark">dark.css</a>
 </div>
+<button onclick="dark()">Dark Mode</button>
 
 <style>
   .demo-theme-preview a {
@@ -23,6 +24,15 @@ A brief guide to setup everything after a fresh installation of macOS. Note that
 <script>
   var preview = Docsify.dom.find('.demo-theme-preview');
   var themes = Docsify.dom.findAll('[rel="stylesheet"]');
+
+  function dark(){
+    var themes = Docsify.dom.findAll('[rel="stylesheet"]');
+    var title = "dark";
+
+    themes.forEach(function (theme) {
+      theme.disabled = theme.title !== title
+    });
+  };
 
   preview.onclick = function (e) {
     var title = e.target.getAttribute('data-theme')
