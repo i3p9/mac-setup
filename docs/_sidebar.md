@@ -4,6 +4,7 @@
 * [System Changes](system-changes.md)
 * [Setup Terminal](setup-terminal.md)
 * [Setting Up Applications](/setting-up-applications/README.md)
+    * [development](/setting-up-applications/dev.md)
     * [Jupyter Notebook](/setting-up-applications/jupyter-notebook.md)
     * [VS Code](/setting-up-applications/vscode.md)
     * [App Store via mas-cli](/setting-up-applications/mas-cli.md)

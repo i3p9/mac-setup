@@ -2,14 +2,6 @@
 
 This is gonna take some time. Let's start with the basic brew apps that needs configuration.
 
-## python
-
-```bash
-brew install python3
-echo "alias python=/usr/local/bin/python3" >> ~/.zshrc
-echo "alias pip=/usr/local/bin/pip3" >> ~/.zshrc
-```
-
 ## brew apps
 
 Let's install the rest of the applications.
