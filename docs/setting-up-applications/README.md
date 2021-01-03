@@ -2,12 +2,18 @@
 
 This is gonna take some time. Let's start with the basic brew apps that needs configuration.
 
+#### install homebrew
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 #### brew apps
 
 Let's install the rest of the applications.
 
 ```bash
-brew install wget youtube-dl aria2 tree tvnamer mas gnupg thefuck tldr brew install switchaudio-osx
+brew install wget youtube-dl aria2 tree tvnamer mas pinentry-mac gnupg thefuck tldr switchaudio-osx
 ```
 
 #### brew cask apps
