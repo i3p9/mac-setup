@@ -10,6 +10,7 @@
     * [App Store via mas-cli](/setting-up-applications/mas-cli.md)
     * [one-key-hidpi](/setting-up-applications/rdm.md)
     * [tvnamer](/setting-up-applications/tvnamer.md)
+    * [iina](/setting-up-applications/iina.md)
 * [Setting up Git](/setting-up-git/README.md)
     * [SSH-Setup](/setting-up-git/ssh-setup.md)
     * [GPG-Setup](/setting-up-git/gpg-setup.md)

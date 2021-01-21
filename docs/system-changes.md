@@ -51,7 +51,7 @@ sudo defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 sudo defaults write com.apple.finder ShowStatusBar -bool true
 sudo defaults write com.apple.finder ShowPathbar -bool true
 sudo defaults write com.apple.finder ShowTabView -bool true
-
+```
 
 ## Fix Screenshot Path
 

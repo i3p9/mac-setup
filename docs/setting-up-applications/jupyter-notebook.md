@@ -4,6 +4,8 @@ Let's setup Jupyter for ML
 
 ```bash
 brew cask install anaconda
+echo 'export PATH="/usr/local/anaconda3/bin:$PATH"' >> ~/.zshrc
+conda init zsh
 ```
 
 For a boilerplate project, let's say `ml`
