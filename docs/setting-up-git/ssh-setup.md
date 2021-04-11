@@ -1,11 +1,11 @@
 # SSH-Setup
 
-We're don't do HTTPS here. 
+We're don't do HTTPS here.
 
 * Generate ssh-key if you're on a new install by
 
 ```bash
-ssh-keygen -t ed25519 -C "your_email@example.com" 
+ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
 Save it. in the default location specified.
@@ -17,7 +17,7 @@ Save it. in the default location specified.
   open ~/.ssh/config
   ```
 
-  If not, then do it by 
+  If not, then do it by
 
 * ```bash
   touch ~/.ssh/config
@@ -45,7 +45,7 @@ Save it. in the default location specified.
 * After that configure your username and email in git
 * ```bash
   git config --global user.name "i3p9"
-  git config --global user.email your_email@example.com
+  git config --global user.email "i3p9@users.noreply.github.com"
   ```
 
   All done!

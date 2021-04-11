@@ -16,4 +16,5 @@
     * [GPG-Setup](/setting-up-git/gpg-setup.md)
 * [Finder Services](finder-services.md)
 * [Miscellaneous]()
+    * [useful-scripts](/misc/useful-scripts.md)
     * [headless-jdownloader](/misc/jdownloader2.md)
