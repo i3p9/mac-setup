@@ -12,10 +12,14 @@ brew install wget youtube-dl aria2 tree tvnamer mas gnupg thefuck tldr switchaud
 
 #### brew cask apps
 
-Let's hop on over the GUI apps, using `--cask`
+Let's hop on over to the GUI apps, using `--cask`
 
 ```bash
-brew install --cask adoptopenjdk lulu dozer alt-tab handbrake monitorcontrol altserver iina notion appcleaner imageoptim slack authy iterm2 spotify avibrazil-rdm jdownloader transmission cloudflare-warp keka transmission-remote-gui discord lyricsx typora docker numi mac2imgur visual-studio-code google-chrome maccy xampp cyberduck unified-remote coteditor android-file-transfer android-platform-tools controlplane
+brew install --cask adoptopenjdk lulu dozer handbrake monitorcontrol altserver iina notion appcleaner imageoptim slack authy iterm2 spotify avibrazil-rdm jdownloader transmission cloudflare-warp keka transmission-remote-gui discord lyricsx typora docker numi mac2imgur visual-studio-code google-chrome maccy xampp cyberduck unified-remote coteditor android-file-transfer android-platform-tools controlplane
+```
+
+```
+NOTE: This is a personalized for my needs, please remove/add applications you prefer, best way would be to fork, then edit so you have your own version
 ```
 
 That's gonna take some time. In the meantime you should start setting up Git and integrate it with Github.

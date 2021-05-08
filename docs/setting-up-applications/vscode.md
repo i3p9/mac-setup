@@ -36,6 +36,12 @@ Or just search for `minimap render` and uncheck the option `Editor -> Minimap: R
 "workbench.settings.enableNaturalLanguageSearch": false
 ```
 
+- Disable the annoying thing where it doesn't show the subfolder if there's only one folder present
+
+```text
+"explorer.compactFolders": false
+```
+
 - Useful but unknown Shortcuts
 
 ```text
@@ -63,7 +69,6 @@ Extensions:
 - Laravel Snippets (onecentlin.laravel5-snippets)
 - markdownlint (davidanson.vscode-markdownlint)
 - Makdown All in One (yzhang.markdown-all-in-one)
-- No Code (writenothing.no-code)
 - Path Intellisense (christian-kohler.path-intellisense)
 - PHP Extension Pack (felixfbecker.php-pack)
 - PropertyList (zhouronghui.propertylist)

@@ -44,13 +44,13 @@ brew install node nvm
 
 ```bash
 npm i docsify-cli -g
-npm install -g typescript
+npm i typescript -g
 npx tsc
 ```
 
 ## web
 
-next.js
+NextJS
 
 ```bash
 npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"
@@ -62,4 +62,11 @@ react
 npx create-react-app my-app
 cd my-app
 npm start
+```
+
+Express/Mongo(via Mongoose) Stack
+```bash
+npm init
+npm i express ejs express-ejs-layouts mongoose
+npm --save-dev nodemon dotenv
 ```
