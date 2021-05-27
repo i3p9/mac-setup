@@ -14,7 +14,7 @@ Iosevka is my font of choice right now. Install the font by:
 
 ```bash
 brew tap homebrew/cask-fonts
-brew cask install font-iosevka
+brew install font-iosevka --cask
 ```
 
 ## shell
