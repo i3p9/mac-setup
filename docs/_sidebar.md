@@ -18,3 +18,4 @@
 * [Miscellaneous]()
     * [useful-scripts](/misc/useful-scripts.md)
     * [headless-jdownloader](/misc/jdownloader2.md)
+    * [windows10usb-on-mac](/misc/win10usb.md)
