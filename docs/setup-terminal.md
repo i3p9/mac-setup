@@ -60,6 +60,10 @@ plugins=(git colored-man-pages colorize pip python brew osx zsh-syntax-highlight
 ## backup/Restore Keymaps and Profiles
 There are backups of keymaps and profile in the `files/iterm2/` folder, grab those and import.
 
+## settings I prefer
+
+* Pref > Pointer > Enable Focus follows mouse. Super convenient.
+
 ## troubleshooting
 
 `zsh-syntax-highlighting` and `zsh-autosuggestions` would have been already installed but not seen by oh-my-zsh so it will throw errors, to fix the errors, do following
