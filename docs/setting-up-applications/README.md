@@ -7,15 +7,26 @@ This is gonna take some time. Let's start with the basic brew apps that needs co
 Let's install the rest of the applications.
 
 ```bash
-brew install wget youtube-dl aria2 tree tvnamer mas gnupg thefuck tldr switchaudio-osx
+brew install git wget youtube-dl aria2 tree tvnamer mas gnupg thefuck tldr
 ```
 
 #### brew cask apps
 
 Let's hop on over to the GUI apps, using `--cask`
 
+**Basic Apps (Essentials)**
 ```bash
-brew install adoptopenjdk lulu dozer handbrake monitorcontrol altserver iina notion appcleaner imageoptim slack authy iterm2 spotify avibrazil-rdm jdownloader transmission cloudflare-warp keka transmission-remote-gui discord lyricsx typora docker numi mac2imgur visual-studio-code google-chrome maccy xampp cyberduck unified-remote coteditor android-file-transfer android-platform-tools controlplane --cask
+brew install --cask google-chrome spotify iina iterm2 typora maccy discord authy coteditor
+```
+
+**Productivity + Utilities**
+```bash
+brew install --cask notion slack appcleaner imageoptim avibrazil-rdm numi mac2imgur controlplane mos android-file-transfer android-platform-tools cyberduck unified-remote lulu handbrake dozer monitorcontrol cloudflare-warp jdownloader transmission transmission-remote-gui keka lyricsx altserver
+```
+
+**Programming Basics**
+```bash
+brew install --cask adoptopenjdk docker visual-studio-code xampp
 ```
 
 ```
