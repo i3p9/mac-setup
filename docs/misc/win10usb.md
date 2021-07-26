@@ -48,3 +48,10 @@ wimlib-imagex split /Volumes/CCCOMA_X64FRE_EN-US_DV9/sources/install.wim /Volume
 ```
 
 After it's done, that's all you need to do. Unplug, and install away!
+
+
+## sneak: Windows 10 Tips
+
+Since I still have Windows 10 for Gaming, here's a couple small tips that I might forget when I reinstall Windows:
+
+* right click on a drive, go to customize, and select optimize this folder for: General Items. Also tick on `Also apply this template to all subfolders` to have a way better experience navigating though Windows Explorer.
