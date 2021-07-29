@@ -1,5 +1,12 @@
 # Setting up iina
 
+## audio downmix to stereo using ffmpeg
+In `~/.config/mpv/mpv.conf`
+```bash
+af=lavfi=[loudnorm=I=-16:TP=-3:LRA=4]
+```
+[source](https://github.com/mpv-player/mpv/issues/6563#issuecomment-473523126)
+
 ## scrobble to Trakt using trakts
 
 - Enable custom mpv config in IINA advance settings and set `~/.config/mpv/` as the path
