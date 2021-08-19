@@ -26,7 +26,7 @@ brew install --cask notion slack appcleaner imageoptim avibrazil-rdm numi mac2im
 
 **Programming Basics**
 ```bash
-brew install --cask adoptopenjdk docker visual-studio-code xampp
+brew install --cask temurin docker visual-studio-code xampp
 ```
 
 ```
