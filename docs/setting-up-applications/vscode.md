@@ -1,8 +1,6 @@
 # VS Code Setup
 
-VS Code configuration is mostly handled by Settings Sync (id: `shan.code-settings-sync`). So open up VSCode, download the extension Settings Sync.
-
-Click on the cogwheel bottom left, and download settings from Github Gist.
+VS Code configuration is mostly handled by Settings Sync. Click on the Accounts icon in  bottom left and sign in with Github or MS account and sync everything. From now on, everything you configure will be saved and it saves a *lot* of time.
 
 ## vscode Tips
 
