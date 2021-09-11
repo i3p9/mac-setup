@@ -42,10 +42,12 @@ Save it. in the default location specified.
   > provide shell access.
   ```
 
-* After that configure your username and email in git
+* After that configure your username and email in git, plus make `main` as the default branch name when doing `git init`
+
 * ```bash
   git config --global user.name "i3p9"
   git config --global user.email "i3p9@users.noreply.github.com"
+  git config --global init.defaultBranch main
   ```
 
   All done!
