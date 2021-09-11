@@ -1,0 +1,6 @@
+.git/
+[tT]humbs.db
+[dD]esktop.ini
+.DS_Store
+node_modules/
+*.photoslibrary/**
