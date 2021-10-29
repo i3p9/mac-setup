@@ -40,7 +40,7 @@
     ],
     "filename_with_date_and_episode": "%(seriesname)s - [%(episode)s] - %(episodename)s%(ext)s",
     "filename_with_date_without_episode": "%(seriesname)s - [%(episode)s]%(ext)s",
-    "filename_with_episode": "%(seriesname)s [%(seasonnumber)02dx%(episode)s] %(episodename)s%(ext)s",
+    "filename_with_episode": "%(seriesname)s %(seasonnumber)dx%(episode)s %(episodename)s%(ext)s",
     "filename_with_episode_no_season": "%(seriesname)s - [%(episode)s] - %(episodename)s%(ext)s",
     "filename_without_episode": "%(seriesname)s - [%(seasonnumber)02dx%(episode)s]%(ext)s",
     "filename_without_episode_no_season": "%(seriesname)s - [%(episode)s]%(ext)s",
