@@ -8,10 +8,21 @@
 
 - Configure pinentry
 
+On M1 Macs
+  ```bash
+  echo "pinentry-program /opt/homebrew/bin/pinentry-mac" > ~/.gnupg/gpg-agent.conf
+  killall gpg-agent
+  ```
+
+On Intel Macs
   ```bash
   echo "pinentry-program /usr/local/bin/pinentry-mac" > ~/.gnupg/gpg-agent.conf
   killall gpg-agent
   ```
+
+```bash
+Note: You may need to create a folder .gnupg and then create a empty file gpg-agent.conf
+```
 
 - Check for existing keys first, `gpg --list-secret-keys --keyid-format LONG`
 
