@@ -1,7 +1,9 @@
 # Setting up iina
 
 ## audio downmix to stereo using ffmpeg
+
 In `~/.config/mpv/mpv.conf`
+
 ```bash
 af=lavfi=[loudnorm=I=-16:TP=-3:LRA=4]
 ```
@@ -33,8 +35,8 @@ trakts init
 
 ## subtitles setup
 
-I personally use ``swiss-721-condensed`` font for my subtitles. Which can be found in the `/files/fonts/` section. Setting it up in IINA > Preferences > Subtitle
+I personally use `NSans` font for my subtitles as I am used to the font from watching Netflix Which can be found in the `/files/fonts/` section. Setting it up in IINA > Preferences > Subtitle
 
-- Select font Swiss721, color black
+- Select font nsans medium, color black
 - Border 0
 - Background black, opacity 85%

@@ -8,22 +8,31 @@ Step 0 is to install `homebrew`
 
 Then do `brew install --cask iterm2` to install iTerm2. We're gonna abandon `Terminal.app` and head straight to iTerm2. Lets Setup iTerm2 now.
 
+## New method of my terminal setup
+
+While manually mananing plugins or even using Oh-my-zsh is fun, I have swtiched to zsh-for-humans. It's made by the same person who made Powerlevel10k and it's simply amazing for someone who doesn't want to deal with the hassle of installing plugins themselves. So if you follow these steps below, you won't need to go though my older method of setting up the terminal.
+
+* Install [zsh-for-humans](https://github.com/romkatv/zsh4humans)
+
+```bash
+if command -v curl >/dev/null 2>&1; then
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
+else
+  sh -c "$(wget -O- https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
+fi
+```
+
+* After installing, you can use `z4h update` to update zsh-for-humans.
+
+
+
 ## font
 
-Iosevka is my font of choice right now. Install the font by:
+PragmataPro is my font of choice right now. Get it from [here](https://fsd.it/shop/fonts/pragmatapro/) Iosevka is a very close second, it's free and open source. Install the font by:
 
 ```bash
 brew tap homebrew/cask-fonts
 brew install --cask font-iosevka
-```
-
-## shell
-
-* Update zsh and completions by `brew install zsh zsh-completions`
-* Install oh-my-zsh. We'll complete setup oh-my-zsh just in a second.
-
-```bash
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 ## theme
@@ -34,7 +43,19 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 wget https://raw.githubusercontent.com/i3p9/mac-setup/main/files/iterm2/vscode.itermcolors
 ```
 
-* Change the font to Iosevka Term, size 16. (Depends entirely on your preferences, I like big sharp fonts)
+* Change the font to PragmataPro, size 16. (Depends entirely on your preferences, I like big sharp fonts)
+
+---
+*old version starts here*
+
+## shell
+
+* Update zsh and completions by `brew install zsh zsh-completions`
+* Install oh-my-zsh. We'll complete setup oh-my-zsh just in a second.
+
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 ## powerlevel10k
 

@@ -56,35 +56,8 @@ If the sync fails, here's a general idea of how it's setup.
 
 - Files: AutoSave → `AfterDelay`
 - Font Size: `16`
-- Font Family: `Iosevka`
+- Font Family: `PragmataPro`
 - Color Theme: `Dark+`
-
-Extensions:
-
-- Composer (ikappas.composer)
-- Jupyter (ms-toolsai.jupyter)
-- Laravel Blade Snippets (onecentlin.laravel-blade)
-- Laravel Snippets (onecentlin.laravel5-snippets)
-- markdownlint (davidanson.vscode-markdownlint)
-- Makdown All in One (yzhang.markdown-all-in-one)
-- Path Intellisense (christian-kohler.path-intellisense)
-- PHP Extension Pack (felixfbecker.php-pack)
-- PropertyList (zhouronghui.propertylist)
-- Python (ms-python.python)
-- Settings Sync (shan.code-settings-sync)
-- vscode-icons (vscode-icons-team.vscode-icons)
-- Bracket Pair Colorizer 2 (coenraads.bracket-pair-colorizer-2)
-- Sass (syler.sass-indented)
-- Prettier - Code Formattar (esbenp.prettier-vscode)
-- Shellman (yzhang.markdown-all-in-one)
-- Wakatime (wakatime.vscode-wakatime)
-- Toggle Quotes (britesnow.vscode-toggle-quotes)
-- Auto Close Tags (formulahendry.auto-close-tag)
-- indent-rainbow (oderwat.indent-rainbow)
-- Text Power Tools (qcz.text-power-tools)
-- Visual Studio IntelliCode (visualstudioexptteam.vscodeintellicode)
-
-Note: You can install extensions using command line too
 
 ```bash
 code --install-extension extension.id
