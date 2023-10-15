@@ -10,6 +10,13 @@ scriptlinkhere
 
 #### Trackpad
 
+* Disable Double-Tab to Smart Zoom.
+
+Immidiately noticeable difference when you do two finger tap for double click. Furthermore, I mostly use Pinch to zoom anyways so Smart Zoom won't even be missed.  
+```
+TrackPad -> Scroll & Zoom -> Disable Smart Zoom
+```
+
 * Turn on Tap to Click
 
 ```bash
